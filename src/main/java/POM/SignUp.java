@@ -2,7 +2,6 @@ package POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -10,22 +9,14 @@ import projectResources.WebdriverInitialize;
 
 public class SignUp extends WebdriverInitialize 
 {
-	@FindBy(xpath = "//span[@class='ico-user sprite-image']")
-	WebElement userlogo_SIGNUP;
 	
-	public void mouseHover_SIGNUP()
-	{
-		Actions actions = new Actions(getdriver());
-		actions.moveToElement(userlogo_SIGNUP).build().perform();
-	}
+	@FindBy(xpath = "//span[@class='ico-user sprite-image']")
+	public static WebElement userlogo_SIGNUP;
+	
 	
 	@FindBy(xpath = "//a[@class='ico-register']")
+	public
 	WebElement register;
-	
-	public void clickOn_SIGNUP()
-	{
-		register.click();
-	}
 	
 	@FindBy(xpath = "//input[@id='FirstName']")
 	WebElement firstname;
@@ -61,7 +52,7 @@ public class SignUp extends WebdriverInitialize
 	}
 	public SignUp(WebDriver driver) 
 	{
-		this.driver = driver;
+		WebdriverInitialize.driver = driver;
 		PageFactory.initElements(driver,this);
 	}
 }

@@ -5,8 +5,8 @@
     <classes>
       <class name="Tests.TestRunner">
         <methods>
-          <include name="CloseBrowser"/>
-          <include name="SignInToWebsite"/>
+          <include name="SignIn_Website"/>
+          <include name="signUp_Website"/>
         </methods>
       </class> <!-- Tests.TestRunner -->
     </classes>

@@ -1,5 +1,6 @@
 package projectResources;
 
+
 public class resource 
 {
 	public final String chrome = "webdriver.chrome.driver";
@@ -16,4 +17,5 @@ public class resource
 	//details for sign in
 	public String signin_username= "abc@gmail.com";
 	public String signin_password= "password";
+	
 }

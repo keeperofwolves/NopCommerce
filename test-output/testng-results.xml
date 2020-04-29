@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7158" started-at="2020-04-28T11:29:41Z" finished-at="2020-04-28T11:29:48Z">
+  <suite name="Default suite" duration-ms="22493" started-at="2020-04-28T18:10:04Z" finished-at="2020-04-28T18:10:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7158" started-at="2020-04-28T11:29:41Z" finished-at="2020-04-28T11:29:48Z">
+    <test name="Default test" duration-ms="22493" started-at="2020-04-28T18:10:04Z" finished-at="2020-04-28T18:10:27Z">
       <class name="Tests.TestRunner">
-        <test-method status="PASS" signature="signUpInWebsite()[pri:1, instance:Tests.TestRunner@2d901eb0]" name="signUpInWebsite" duration-ms="4397" started-at="2020-04-28T16:59:41Z" finished-at="2020-04-28T16:59:45Z">
+        <test-method status="PASS" signature="signUp_Website()[pri:1, instance:Tests.TestRunner@196a42c3]" name="signUp_Website" duration-ms="5140" started-at="2020-04-28T23:40:04Z" finished-at="2020-04-28T23:40:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUpInWebsite -->
-        <test-method status="PASS" signature="SignInToWebsite()[pri:2, instance:Tests.TestRunner@2d901eb0]" name="SignInToWebsite" duration-ms="2730" started-at="2020-04-28T16:59:45Z" finished-at="2020-04-28T16:59:48Z">
+        </test-method> <!-- signUp_Website -->
+        <test-method status="PASS" signature="SignIn_Website()[pri:2, instance:Tests.TestRunner@196a42c3]" name="SignIn_Website" duration-ms="1766" started-at="2020-04-28T23:40:10Z" finished-at="2020-04-28T23:40:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignInToWebsite -->
+        </test-method> <!-- SignIn_Website -->
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:Tests.TestRunner@196a42c3]" name="closeBrowser" duration-ms="15560" started-at="2020-04-28T23:40:11Z" finished-at="2020-04-28T23:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
       </class> <!-- Tests.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
